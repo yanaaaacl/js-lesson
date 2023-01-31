@@ -1,5 +1,4 @@
-setInterval(function(){
-  var messageInput = document.getElementById('message');
-  window.alert(messageInput.value);
-
-},4000);
+let userName = 'Яна';
+let userName2 = 'Женевьева'
+console.log(`Привет, ${userName}! Как твои дела?`);
+console.log(`${userName2}, с возвращением!`);
