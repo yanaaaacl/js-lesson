@@ -1,4 +1,9 @@
-let userName = 'Яна';
-let userName2 = 'Женевьева'
-console.log(`Привет, ${userName}! Как твои дела?`);
-console.log(`${userName2}, с возвращением!`);
+
+
+//const userName = 'Draco';
+//console.log(`Hello, ${userName}! How are you?`);
+
+function sayHi(name){
+   alert(`Hello, ${name}! How are you?`);
+}
+sayHi('Draco');
