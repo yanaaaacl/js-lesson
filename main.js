@@ -1,9 +1,6 @@
-
-
-//const userName = 'Draco';
-//console.log(`Hello, ${userName}! How are you?`);
-
-function sayHi(name){
-   alert(`Hello, ${name}! How are you?`);
+function  summ (a, b){
+   const result = a + b;
+   return result;
 }
-sayHi('Draco');
+ let res = summ(10, 15);
+ console.log(res);
